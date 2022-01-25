@@ -1,6 +1,10 @@
 import React from 'react';
-import Header from 'components/Header';
+import PublicLayout from 'layouts/PublicLayout';
 
-const Index = () => <Header />;
+const Index = () => (
+  <PublicLayout>
+    <h1>Contenido de la mitad</h1>
+  </PublicLayout>
+);
 
 export default Index;
