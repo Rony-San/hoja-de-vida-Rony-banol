@@ -9,30 +9,30 @@ const Index = () => (
     <div className='h-full flex flex-col items-center justify-between'>
       <Conocimientos />
       <Conocimientos2 />
-      <div className=' w-3/4 h-80 m-5 mt-10 relative'>
+      <div className=' w-3/4 h-72 m-5 mt-10 relative'>
         <span className='flex mb-3 ml-5'> CONOCIMIENTOS </span>
         <div className='grid grid-cols-2 gap-2 mb-5 '>
           <div>
             <span>Java Script</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem] '>
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem] '>
               <div className='bg-Verde-plantilla w-7/12 h-full' />
             </div>
           </div>
           <div>
             <span>CSS</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem]'>
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem]'>
               <div className='bg-Verde-plantilla w-6/12 h-full' />
             </div>
           </div>
           <div>
             <span>HTML</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem]'>
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem]'>
               <div className='bg-Verde-plantilla w-6/12 h-full' />
             </div>
           </div>
           <div>
             <span>Python</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem]'>
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem]'>
               <div className='bg-Verde-plantilla w-6/12 h-full' />
             </div>
           </div>
@@ -42,14 +42,14 @@ const Index = () => (
           {' '}
           <div>
             <span>Español</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem] '>
-              <div className='bg-Verde-plantilla w-7/12 h-full' />
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem] '>
+              <div className='bg-Verde-plantilla w-full h-full' />
             </div>
           </div>
           <div>
             <span>Ingles B2</span>
-            <div className='bg-FondoGris-plantilla w-[8rem] h-[0.8rem]'>
-              <div className='bg-Verde-plantilla w-6/12 h-full' />
+            <div className='bg-FondoGris-plantilla w-11/12 h-[0.8rem]'>
+              <div className='bg-Verde-plantilla w-full h-full' />
             </div>
           </div>
         </div>
