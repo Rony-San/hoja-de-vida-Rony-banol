@@ -3,8 +3,8 @@ import foto from 'images/foto.png';
 import 'styles/globals.css';
 
 const Header = () => (
-  <header className='bg-Negro-plantilla flex items-center h-1/2 md:hidden text-white font-sans '>
-    <div className='bg-Negro-plantilla h-4/5 flex flex-col items-center justify-self-center p-3 pt-3 w-screen '>
+  <header className='bg-Negro-plantilla flex items-center md:hidden text-white font-sans '>
+    <div className='bg-Negro-plantilla flex h-1/3 flex-col items-center justify-self-center p-3 pt-3 w-screen '>
       <div className='flex items-center mx-20  '>
         <img src={foto} alt='nada' className='w-20 h-20 rounded-full ml-1 ' />
         <div className=' w-80 flex flex-col ml-2'>
