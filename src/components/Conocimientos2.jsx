@@ -3,8 +3,12 @@ import React from 'react';
 export const Conocimientos2 = () => (
   <div className='w-full flex flex-col items-center'>
     <div className=' w-3/4 h-80 m-5 mt-10 relative overflow-hidden'>
-      <span className='absolute left-5 top-3'>HOBBIES</span>
-      <span className='absolute left-5 top-48'>CURSOS</span>
+      <span className='absolute left-5 top-[0.70rem] font-bold text-lg text-Negro-plantilla font'>
+        HOBBIES
+      </span>
+      <span className='absolute left-5 top-48 font-bold text-lg text-Negro-plantilla font'>
+        CURSOS
+      </span>
       <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-12 flex flex-col text-xs'>
         <p className='w-full '>
           Búsqueda y lectura de libros donde se enseñe un lenguaje de
@@ -16,9 +20,9 @@ export const Conocimientos2 = () => (
 
         <span className=''>Enfoque en administración de procesos</span>
       </div>
-      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-[14.5rem] flex flex-col text-xs'>
+      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-[14.3rem] flex flex-col text-xs'>
         <p className='w-full flex flex-col'>
-          <span>Udemy</span>
+          <span className='text-base'>Udemy</span>
           <span>Universidad JavaScript 2021</span>
         </p>
       </div>

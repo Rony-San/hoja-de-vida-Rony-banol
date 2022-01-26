@@ -3,11 +3,15 @@ import React from 'react';
 export const Conocimientos = () => (
   <div className='w-full flex flex-col items-center'>
     <div className=' w-3/4 h-80 m-5 mt-10 relative overflow-hidden'>
-      <span className='absolute left-5 top-3'>EDUCACIÓN</span>
-      <span className='absolute left-5 top-44'>INTERESES</span>
+      <span className='absolute left-5 top-[0.70rem] font-bold text-lg text-Negro-plantilla font'>
+        EDUCACIÓN
+      </span>
+      <span className='absolute left-5 top-44 font-bold text-lg text-Negro-plantilla text'>
+        INTERESES
+      </span>
       <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-10 flex flex-col text-xs'>
-        <span className='text-base my-2'>Universidad de Antioquía</span>
-        <p className='w-full flex justify-between my-2'>
+        <span className=' my-2 text-lg'>Universidad de Antioquía</span>
+        <p className='w-full flex justify-between my-1'>
           <span>Ingeniería de sistemas</span>
           <span>2021 - Actualidad</span>
         </p>

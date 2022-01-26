@@ -9,8 +9,8 @@ const Index = () => (
     <div className='h-full flex flex-col items-center justify-between'>
       <Conocimientos />
       <Conocimientos2 />
-      <div className=' w-3/4 h-72 m-5 mt-10 relative'>
-        <span className='flex mb-3 ml-5'> CONOCIMIENTOS </span>
+      <div className='  w-3/4 h-64 m-5 mt-10 relative justify-items-center  text-xs'>
+        <span className='flex ml-5 mb-3 text-base'> CONOCIMIENTOS </span>
         <div className='grid grid-cols-2 gap-2 mb-5 '>
           <div>
             <span>Java Script</span>
@@ -37,7 +37,7 @@ const Index = () => (
             </div>
           </div>
         </div>
-        <span className='flex mb-3 ml-5'> LENGUAJES</span>
+        <span className='flex ml-5 mb-3 text-base'> LENGUAJES</span>
         <div className='grid grid-cols-2 gap-2 mb-5 '>
           {' '}
           <div>
