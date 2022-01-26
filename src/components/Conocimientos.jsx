@@ -1,28 +1,24 @@
 import React from 'react';
 
 export const Conocimientos = () => (
-  <div className='w-full flex flex-col items-center'>
-    <div className=' w-3/4 h-80 m-5 mt-10 relative overflow-hidden'>
-      <span className='absolute left-5 top-[0.70rem] font-bold text-lg text-Negro-plantilla font'>
-        EDUCACIÓN
-      </span>
-      <span className='absolute left-5 top-44 font-bold text-lg text-Negro-plantilla text'>
-        INTERESES
-      </span>
-      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-10 flex flex-col text-xs'>
+  <div className='displayComponente'>
+    <div className='bloqueBase'>
+      <span className='tituloDeBloque top-[0.70rem] '>EDUCACIÓN</span>
+      <span className='tituloDeBloque  top-44 '>INTERESES</span>
+      <div className='perfil top-10'>
         <span className=' my-2 text-lg'>Universidad de Antioquía</span>
-        <p className='w-full flex justify-between my-1'>
+        <p className='perfilBloque'>
           <span>Ingeniería de sistemas</span>
           <span>2021 - Actualidad</span>
         </p>
-        <p className='w-full flex justify-between mt-2'>
+        <p className='perfilBloque'>
           <span>Ingeniería quimica</span>
           <span>2015 - 2021</span>
         </p>
 
         <span className=''>Enfoque en administración de procesos</span>
       </div>
-      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-[13.5rem] flex flex-col text-xs'>
+      <div className='perfil top-[13.5rem]'>
         <p className='w-full '>
           Disposición por los diversos lenguajes de programación usados en la
           actualidad, los cuales tienen Inclinación por el desarrollo Front-End
@@ -30,12 +26,12 @@ export const Conocimientos = () => (
         </p>
       </div>
 
-      <div className=' border-gray-600 absolute h-full w-1/5 border-l-2 left-2 top-8' />
-      <div className=' border-gray-600 absolute w-full h-1/5 border-t-2 top-8  ' />
-      <div className=' border-gray-600 absolute w-full h-1/5 border-t-2 top-[12.3rem] ' />
-      <div className=' bg-FondoGris-plantilla rounded-full w-3 h-3 absolute left-1 top-[5.6rem] border-Negro-plantilla border-2' />
-      <div className=' bg-FondoGris-plantilla rounded-full w-3 h-3 absolute left-1 top-[7.6rem] border-Negro-plantilla border-2' />
-      <div className=' bg-FondoGris-plantilla rounded-full w-3 h-3 absolute left-1 top-[13.6rem] border-Negro-plantilla border-2' />
+      <div className=' lineaVertical' />
+      <div className=' LineaHorizontal top-8  ' />
+      <div className=' LineaHorizontal top-[12.3rem] ' />
+      <div className=' bola top-[5.6rem] ' />
+      <div className=' bola top-[7.6rem] ' />
+      <div className=' bola top-[13.6rem] ' />
     </div>
   </div>
 );

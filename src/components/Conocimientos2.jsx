@@ -1,15 +1,11 @@
 import React from 'react';
 
 export const Conocimientos2 = () => (
-  <div className='w-full flex flex-col items-center'>
-    <div className=' w-3/4 h-80 m-5 mt-10 relative overflow-hidden'>
-      <span className='absolute left-5 top-[0.70rem] font-bold text-lg text-Negro-plantilla font'>
-        HOBBIES
-      </span>
-      <span className='absolute left-5 top-48 font-bold text-lg text-Negro-plantilla font'>
-        CURSOS
-      </span>
-      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-12 flex flex-col text-xs'>
+  <div className='displayComponente'>
+    <div className=' bloqueBase'>
+      <span className='tituloDeBloque top-[0.70rem]'>HOBBIES</span>
+      <span className='tituloDeBloque top-48'>CURSOS</span>
+      <div className='perfil top-12'>
         <p className='w-full '>
           Búsqueda y lectura de libros donde se enseñe un lenguaje de
           programación y se realicen proyectos relacionados con el entorno de
@@ -20,18 +16,18 @@ export const Conocimientos2 = () => (
 
         <span className=''>Enfoque en administración de procesos</span>
       </div>
-      <div className='absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5 top-[14.3rem] flex flex-col text-xs'>
+      <div className='perfil top-[14.3rem]'>
         <p className='w-full flex flex-col'>
           <span className='text-base'>Udemy</span>
           <span>Universidad JavaScript 2021</span>
         </p>
       </div>
 
-      <div className=' border-gray-600 absolute h-full w-1/5 border-l-2 left-2 top-8' />
-      <div className=' border-gray-600 absolute w-full h-1/5 border-t-2 top-8  ' />
-      <div className=' border-gray-600 absolute w-full h-1/5 border-t-2 top-[13.3rem] ' />
-      <div className=' bg-FondoGris-plantilla rounded-full w-3 h-3 absolute left-1 top-[3.2rem] border-Negro-plantilla border-2' />
-      <div className=' bg-FondoGris-plantilla rounded-full w-3 h-3 absolute left-1 top-[14.6rem] border-Negro-plantilla border-2' />
+      <div className=' lineaVertical' />
+      <div className=' LineaHorizontal top-8  ' />
+      <div className=' LineaHorizontal top-[13.3rem] ' />
+      <div className=' bola top-[3.2rem] ' />
+      <div className=' bola top-[14.6rem] ' />
     </div>
   </div>
 );
