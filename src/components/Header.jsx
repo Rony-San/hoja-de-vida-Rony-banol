@@ -4,16 +4,25 @@ import 'styles/globals.css';
 
 const Header = () => (
   <header className=''>
-    <div className='headerBloque'>
-      <div className='flex items-center mx-20  '>
-        <img src={foto} alt='nada' className='headerImagen ' />
+    <div className='headerBloque xl:hidden '>
+      <div className='flex items-center mx-20 md:mx-10  '>
+        <img
+          src={foto}
+          alt='nada'
+          className='headerImagen md:w-40 md:h-40 md:mr-2 '
+        />
         <div className=' w-80 flex flex-col ml-2'>
           <h1 className=' headerNombre'>Rony Santiago Bañol Rico</h1>
           <p className=' mt-2  mb-2'>Estudiante ingeniería de sistemas</p>
+          <p className='hidden  headerTextoTablet'>
+            Estudiante de Ingeniería de Sistemas con gran pasión por el
+            desarrollo y los nuevos retos en camino de crecimiento profesional;
+            con gran capacidad de autoaprendizaje y trabajo en equipo.
+          </p>
         </div>
       </div>
 
-      <p className=' headerTexto'>
+      <p className=' headerTexto md:hidden'>
         Estudiante de Ingeniería de Sistemas con gran pasión por el desarrollo y
         los nuevos retos en camino de crecimiento profesional; con gran
         capacidad de autoaprendizaje y trabajo en equipo.

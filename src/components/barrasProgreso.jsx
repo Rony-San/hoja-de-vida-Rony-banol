@@ -2,7 +2,7 @@ import React from 'react';
 import BarraProgresoComponente from 'components/barraProgresoComponente';
 
 export const BarrasProgreso = () => (
-  <div className='w-full flex flex-col items-center'>
+  <div className='w-full flex flex-col items-center xl:hidden'>
     <div className='  w-3/4 h-64 m-5 mt-10 relative justify-items-center  text-xs'>
       <span className='conocimientosTitulo'> CONOCIMIENTOS </span>
       <div className='conocimientosBloque'>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className='footer'>
+  <footer className='footer xl:hidden'>
     <a
       className='footerComponente'
       href='https://www.w3schools.com/tags/tag_a.asp'
@@ -18,7 +18,11 @@ const Footer = () => (
       href='https://www.w3schools.com/tags/tag_a.asp'
     >
       <i className='fab fa-github text-FondoBlanco-plantilla text-xl' />
-      <pan className=''>github.com/Rony-San</pan>
+      <pan className=''>
+        github.com/
+        <br />
+        Rony-San
+      </pan>
     </a>
     <a
       className='footerComponente '

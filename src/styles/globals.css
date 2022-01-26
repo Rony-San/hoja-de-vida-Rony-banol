@@ -3,11 +3,18 @@
 @tailwind utilities;
 
 .headerBloque {
-  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-screen font-sans text-white;
+  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full font-sans text-white;
+}
+
+.headerBloqueTablet {
+  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full font-sans text-white;
 }
 
 .headerTexto {
   @apply flex items-center max-w-[90%] text-xs mt-2;
+}
+.headerTextoTablet {
+  @apply md:flex md:items-center md:max-w-[90%] md:text-xs md:mt-2;
 }
 
 .headerNombre {
@@ -64,7 +71,7 @@
 }
 
 .footer {
-  @apply bg-Negro-plantilla py-4 flex justify-between items-center w-screen text-xs text-BlancoLetras-plantilla;
+  @apply bg-Negro-plantilla py-4 flex justify-between items-center w-full text-xs text-BlancoLetras-plantilla;
 }
 
 .footerComponente {
