@@ -6,7 +6,7 @@ const Footer = () => (
       className='mx-2  my-1 flex flex-col items-center  w-1/3 '
       href='https://www.w3schools.com/tags/tag_a.asp'
     >
-      <i className='fab fa-linkedin text-Verde-plantilla text-xl' />
+      <i className='far fa-envelope text-Verde-plantilla text-xl' />
       <pan className='text-xs text-BlancoLetras-plantilla'>
         Rony.banol@
         <br />
