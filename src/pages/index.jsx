@@ -10,7 +10,9 @@ const Index = () => (
     <div className='h-full flex flex-col items-center justify-between '>
       <Conocimientos />
       <Conocimientos2 />
-      <BarrasProgreso />
+      <div className='xl:hidden w-full'>
+        <BarrasProgreso />
+      </div>
     </div>
   </PublicLayout>
 );
