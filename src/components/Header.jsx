@@ -11,7 +11,7 @@ const Header = () => (
           alt='nada'
           className='headerImagen md:w-40 md:h-40 md:mr-2 xl:hidden '
         />
-        <div className=' w-80 flex flex-col ml-2 xl:w-full xl:ml-16'>
+        <div className=' w-80 flex flex-col ml-2 xl:w-full xl:mx-16'>
           <h1 className=' headerNombre'>Rony Santiago Bañol Rico</h1>
           <p className=' mt-2  mb-2'>Estudiante ingeniería de sistemas</p>
           <p className='hidden  headerTextoTablet'>

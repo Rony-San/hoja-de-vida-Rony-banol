@@ -57,9 +57,15 @@
 .LineaHorizontal {
   @apply border-gray-600 absolute w-full h-1/5 border-t-2;
 }
+.LineaHorizontalXl {
+  @apply xl:border-gray-600 xl:absolute xl:w-10/12 xl:h-1/5 xl:border-t-2;
+}
 
 .lineaVertical {
   @apply border-gray-600 absolute h-full w-1/5 border-l-2 left-2 top-8;
+}
+.lineaVerticalXl {
+  @apply xl:border-gray-600 xl:absolute  xl:w-1/5 xl:border-l-2 xl:left-12  xl:h-[53rem];
 }
 
 .bola {

@@ -7,7 +7,9 @@ import BarrasProgreso from 'components/barrasProgreso';
 const PublicLayout = ({ children }) => (
   <div className=' xl:flex xl:flex-col xl:item-center w-screen   md:bg-FondoGris-plantilla box-border'>
     <div className='  xl:flex xl:flex-row-reverse xl:justify-center h-max  '>
-      <div className=' md:flex md:flex-col md:items-center xl:w-7/12 '>
+      <div className=' md:flex md:flex-col md:items-center xl:w-7/12 relative '>
+        <div className=' lineaVerticalXl top-20' />
+        <div className=' LineaHorizontalXl top-44 left-12  ' />
         <div className=' min-h-screen h-full  md:w-9/12 xl:w-full  md:bg-FondoBlanco-plantilla 	 '>
           <Header className='' />
           <div className=' '>{children}</div>
