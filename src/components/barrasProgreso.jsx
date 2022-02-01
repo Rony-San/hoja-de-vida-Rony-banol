@@ -7,7 +7,7 @@ export const BarrasProgreso = () => (
       <div className='conocimientosBarras'>
         <span className='conocimientosTitulo'> CONOCIMIENTOS </span>
         <div className='conocimientosBloque conocimientosBloqueXl '>
-          <BarraProgresoComponente texto='Java Script' progreso='w-7/12' />
+          <BarraProgresoComponente texto='JavaScript' progreso='w-7/12' />
           <BarraProgresoComponente texto='CSS' progreso='w-6/12' />
           <BarraProgresoComponente texto='HTML' progreso='w-8/12' />
           <BarraProgresoComponente texto='Python' progreso='w-5/12' />
@@ -17,7 +17,7 @@ export const BarrasProgreso = () => (
         <span className='conocimientosTitulo '> LENGUAJES</span>
         <div className='conocimientosBloque conocimientosBloqueXl'>
           <BarraProgresoComponente texto='Español' progreso='w-full' />
-          <BarraProgresoComponente texto='Ingles B2' progreso='w-full' />
+          <BarraProgresoComponente texto='Inglés B2' progreso='w-full' />
         </div>
       </div>
     </div>

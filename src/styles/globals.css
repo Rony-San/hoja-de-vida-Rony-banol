@@ -80,6 +80,9 @@
 .iconosFormaSideBar {
   @apply text-Verde-plantilla text-xl;
 }
+.links {
+  @apply ml-3;
+}
 
 .barraProgresoFondo {
   @apply bg-FondoGris-plantilla w-11/12 h-[0.8rem];

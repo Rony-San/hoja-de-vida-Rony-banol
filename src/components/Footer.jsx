@@ -4,7 +4,9 @@ const Footer = () => (
   <footer className='footer xl:hidden'>
     <a
       className='footerComponente'
-      href='https://www.w3schools.com/tags/tag_a.asp'
+      href='https://mail.google.com/mail/u/0/?fs=1&to=ronysantiagoba@gmail.com&su=&body=&bcc=&tf=cm'
+      target='_blank'
+      rel='noreferrer'
     >
       <i className='far fa-envelope text-Verde-plantilla text-xl' />
       <pan className=''>
@@ -15,7 +17,9 @@ const Footer = () => (
     </a>
     <a
       className='footerComponente'
-      href='https://www.w3schools.com/tags/tag_a.asp'
+      href='https://github.com/Rony-San'
+      target='_blank'
+      rel='noreferrer'
     >
       <i className='fab fa-github text-FondoBlanco-plantilla text-xl' />
       <pan className=''>
@@ -26,7 +30,9 @@ const Footer = () => (
     </a>
     <a
       className='footerComponente '
-      href='https://www.w3schools.com/tags/tag_a.asp'
+      href='https://www.linkedin.com/in/rony-santiago/'
+      target='_blank'
+      rel='noreferrer'
     >
       <i className='fab fa-linkedin text-Verde-plantilla text-xl ' />
       <pan className=''>

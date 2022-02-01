@@ -18,16 +18,34 @@ const SideBar = () => (
       <span className='conocimientosTitulo '> CONTACTO </span>
       <div className='mr-5'>
         <div className=' flex items-center mb-5 '>
-          <i className='far fa-envelope iconosFormaSideBar' />
-          <pan className='ml-3'>Rony.banol@udea.edu.co</pan>
+          <a
+            href='https://mail.google.com/mail/u/0/?fs=1&to=ronysantiagoba@gmail.com&su=&body=&bcc=&tf=cm'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='far fa-envelope iconosFormaSideBar ' />
+            <pan className='links'>Rony.banol@udea.edu.co</pan>
+          </a>
         </div>
         <div className=' flex items-center mb-5 '>
-          <i className='fab fa-github iconosFormaSideBar' />
-          <pan className='ml-3'> github.com/Rony-San</pan>
+          <a
+            href='https://github.com/Rony-San'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='fab fa-github iconosFormaSideBar ' />
+            <pan className='links'>github.com/Rony-San</pan>
+          </a>
         </div>
         <div className=' flex items-center mb-5 '>
-          <i className='fab fa-linkedin iconosFormaSideBar' />
-          <pan className='ml-3'>linkedin.com/in/rony-santiago</pan>
+          <a
+            href='https://www.linkedin.com/in/rony-santiago/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <i className='fab fa-linkedin iconosFormaSideBar ' />
+            <pan className='links'>linkedin.com/in/rony-santiago</pan>
+          </a>
         </div>
       </div>
     </div>

@@ -7,14 +7,14 @@ export const Conocimientos = () => (
       <span className='tituloDeBloque  top-44 '>INTERESES</span>
       <div className='perfil top-10 xl:top-[2rem]'>
         <span className=' my-2 text-lg xl:text-xl'>
-          Universidad de Antioquía
+          Universidad de Antioquia
         </span>
         <p className='perfilBloque'>
           <span>Ingeniería de sistemas</span>
           <span>2021 - Actualidad</span>
         </p>
         <p className='perfilBloque'>
-          <span>Ingeniería quimica</span>
+          <span>Ingeniería química</span>
           <span>2015 - 2021</span>
         </p>
 
