@@ -3,8 +3,8 @@ import BarraProgresoComponente from 'components/barraProgresoComponente';
 
 export const BarrasProgreso = () => (
   <div className='w-full flex flex-col items-center '>
-    <div className='  w-3/4 h-64 m-5 mt-10 relative justify-items-center  text-xs xl:mt-10 xl:text-FondoBlanco-plantilla'>
-      <div className='xl:flex xl:flex-col xl:items-center xl:mt-5'>
+    <div className='  bloqueBarrasProgreso'>
+      <div className='conocimientosBarras'>
         <span className='conocimientosTitulo'> CONOCIMIENTOS </span>
         <div className='conocimientosBloque conocimientosBloqueXl '>
           <BarraProgresoComponente texto='Java Script' progreso='w-7/12' />
@@ -13,7 +13,7 @@ export const BarrasProgreso = () => (
           <BarraProgresoComponente texto='Python' progreso='w-5/12' />
         </div>
       </div>
-      <div className='xl:flex xl:flex-col xl:items-center xl:mt-10'>
+      <div className='lenguajesBarras'>
         <span className='conocimientosTitulo '> LENGUAJES</span>
         <div className='conocimientosBloque conocimientosBloqueXl'>
           <BarraProgresoComponente texto='Español' progreso='w-full' />

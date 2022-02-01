@@ -2,12 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
+.layoutFondo {
+  @apply xl:flex xl:flex-col w-screen   md:bg-FondoGris-plantilla box-border font-sans;
+}
+
+.layoutBloqueBase {
+  @apply xl:flex xl:flex-row-reverse xl:justify-center h-max   overflow-hidden;
+}
+
+.layoutBloqueRelleno {
+  @apply hidden xl:flex xl:flex-col xl:items-center xl:w-10 bg-BlancoLetras-plantilla;
+}
+
+.bloqueLayoutContenidos {
+  @apply md:flex md:flex-col md:items-center xl:w-7/12 relative;
+}
+
+.bloqueBarrasProgreso {
+  @apply w-3/4 h-64 m-5 mt-10 relative justify-items-center  text-xs xl:mt-10 xl:text-FondoBlanco-plantilla;
+}
+
+.conocimientosBarras {
+  @apply xl:flex xl:flex-col xl:items-center xl:mt-5;
+}
+.lenguajesBarras {
+  @apply xl:flex xl:flex-col xl:items-center xl:mt-10;
+}
+
+.bloqueLayoutConocimientos {
+  @apply hidden xl:flex xl:flex-col xl:items-center xl:w-3/12 bg-Negro-plantilla;
+}
+
+.bloqueIndex {
+  @apply h-full flex flex-col items-center justify-between;
+}
+
+.contenidoDePagina {
+  @apply min-h-screen h-full  md:w-9/12 xl:w-full  md:bg-FondoBlanco-plantilla;
+}
+
+.headerContenidoBloque {
+  @apply w-80 flex flex-col ml-2 xl:w-full xl:mx-16;
+}
+
 .headerBloque {
-  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full font-sans text-white xl:bg-inherit xl:text-Negro-plantilla;
+  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full  text-white xl:bg-inherit xl:text-Negro-plantilla;
 }
 
 .headerBloqueTablet {
-  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full font-sans text-white;
+  @apply bg-Negro-plantilla flex h-1/3 flex-col items-center  p-3 pt-3 w-full  text-white;
 }
 
 .headerTexto {
@@ -15,15 +58,27 @@
 }
 
 .headerTextoTablet {
-  @apply md:flex md:items-center md:max-w-[90%] md:text-xs md:mt-2;
+  @apply md:flex md:items-center md:max-w-[90%] md:text-xs md:mt-2 xl:text-sm;
 }
 
 .headerNombre {
-  @apply font-bold text-lg border-b-2 w-fit;
+  @apply font-bold text-lg border-b-2 w-fit xl:text-3xl;
 }
 
 .headerImagen {
   @apply w-20 h-20 rounded-full ml-1;
+}
+
+.posicionImagen {
+  @apply md:w-40 md:h-40 md:mr-2 mt-8;
+}
+
+.contenigoSideBarBloque {
+  @apply flex flex-col mt-44 items-center text-FondoBlanco-plantilla;
+}
+
+.iconosFormaSideBar {
+  @apply text-Verde-plantilla text-xl;
 }
 
 .barraProgresoFondo {
@@ -41,11 +96,11 @@
   @apply w-3/4 h-80 m-5 mt-10 relative overflow-hidden;
 }
 .bloqueBaseXL {
-  @apply xl:w-full  xl:mt-10  xl:overflow-hidden;
+  @apply xl:w-full  xl:mt-3  xl:overflow-hidden xl:ml-auto;
 }
 
 .conocimientosTitulo {
-  @apply flex ml-5 mb-3 xl:mb-5 text-base xl:ml-0;
+  @apply flex ml-5 mb-3 xl:mb-5 text-base xl:ml-0 font-bold text-Negro-plantilla xl:text-BlancoLetras-plantilla;
 }
 .conocimientosBloque {
   @apply grid grid-cols-2 gap-2 mb-5 xl:hidden w-full;
@@ -58,14 +113,14 @@
   @apply border-gray-600 absolute w-full h-1/5 border-t-2;
 }
 .LineaHorizontalXl {
-  @apply xl:border-gray-600 xl:absolute xl:w-10/12 xl:h-1/5 xl:border-t-2;
+  @apply xl:border-gray-500 xl:absolute xl:w-10/12 xl:h-1/5 xl:border-t-2;
 }
 
 .lineaVertical {
   @apply border-gray-600 absolute h-full w-1/5 border-l-2 left-2 top-8;
 }
 .lineaVerticalXl {
-  @apply xl:border-gray-600 xl:absolute  xl:w-1/5 xl:border-l-2 xl:left-12  xl:h-[53rem];
+  @apply xl:border-gray-500 xl:absolute  xl:w-1/5 xl:border-l-2 xl:left-12  xl:h-[53rem];
 }
 
 .bola {
@@ -77,7 +132,7 @@
 }
 
 .perfil {
-  @apply absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5  flex flex-col text-xs;
+  @apply absolute w-11/12 h-1/3 bg-FondoBlanco-plantilla left-5  flex flex-col text-xs xl:text-base;
 }
 
 .perfilBloque {

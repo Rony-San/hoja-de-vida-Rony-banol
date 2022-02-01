@@ -13,8 +13,6 @@ export const Conocimientos2 = () => (
           idioma inglés y búsqueda de información virtual para enriquecer el
           conocimiento del lenguaje.
         </p>
-
-        <span className=''>Enfoque en administración de procesos</span>
       </div>
       <div className='perfil top-[14.3rem]'>
         <p className='w-full flex flex-col'>

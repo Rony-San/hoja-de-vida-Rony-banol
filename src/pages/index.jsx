@@ -7,7 +7,7 @@ import BarrasProgreso from 'components/barrasProgreso';
 
 const Index = () => (
   <PublicLayout>
-    <div className='h-full flex flex-col items-center justify-between '>
+    <div className=' bloqueIndex'>
       <Conocimientos />
       <Conocimientos2 />
       <div className='xl:hidden w-full'>
