@@ -3,6 +3,7 @@ import PublicLayout from 'layouts/PublicLayout';
 import Conocimientos from 'components/Conocimientos';
 import Conocimientos2 from 'components/Conocimientos2';
 import BarrasProgreso from 'components/barrasProgreso';
+import { ScrollToTop } from 'hooks/scrollToTop';
 // import Footer from 'components/Footer';
 
 const Index = () => (
@@ -13,6 +14,7 @@ const Index = () => (
       <div className='xl:hidden w-full'>
         <BarrasProgreso />
       </div>
+      <ScrollToTop />
     </div>
   </PublicLayout>
 );
